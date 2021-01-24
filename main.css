@@ -11,6 +11,8 @@ body {
 }
 
 .container{
+	float: right;
+	width: max-content;
 	width: 90%;
 	margin: auto;
 }

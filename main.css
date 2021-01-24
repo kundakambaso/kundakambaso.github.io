@@ -19,7 +19,12 @@ body {
 	text-align: center;
 }
 
+.container ul{
+	list-style: none;
+}
+
 .navigation{
+	position: fixed;
 	backgroung-color: #00154f;
 	color: #f4af1b;
 }

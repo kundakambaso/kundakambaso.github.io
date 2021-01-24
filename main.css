@@ -29,7 +29,12 @@ body {
 	float: left;
 	width: max-content;
 	position: fixed;
-	background: #00154f;
+	background-color: #00154f;
+	color: #f4af1b;
+}
+
+#header{
+	background-color: #00154f;
 	color: #f4af1b;
 }
 

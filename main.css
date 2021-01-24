@@ -26,11 +26,17 @@ body {
 }
 
 #navigation{
-	float: left;
-	width: max-content;
-	position: fixed;
 	background-color: #00154f;
 	color: #f4af1b;
+}
+
+#navigation ul{
+	padding: 0%;
+	list-style: none;
+}
+
+#navigation li{
+	display: table-column;
 }
 
 #header{

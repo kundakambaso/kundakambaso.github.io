@@ -6,6 +6,10 @@ body {
 
 }
 
+.main{
+	background-color: #f2bc94;
+}
+
 .container{
 	width: 90%;
 	margin: auto;

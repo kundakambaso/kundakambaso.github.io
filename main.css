@@ -23,7 +23,7 @@ body {
 	list-style: none;
 }
 
-.navigation{
+#navigation{
 	float: left;
 	width: max-content;
 	position: fixed;

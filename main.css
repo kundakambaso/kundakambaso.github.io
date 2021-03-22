@@ -1,5 +1,5 @@
 body {
-	background-color: #f2bc94;
+	background-color: #ebe8e7;
 	font-family: arial;
 	font-size: 16px;
 	line-height: 1.6em;
@@ -7,7 +7,7 @@ body {
 }
 
 .main{
-	background-color: #f2bc94;
+	background-color: #ebe8e7;
 }
 
 .container{
@@ -26,8 +26,8 @@ body {
 }
 
 #navigation{
-	background-color: #00154f;
-	color: #f4af1b;
+	background-color: #bd9dea;
+	color: #7a77b9;
 }
 
 #navigation ul{
@@ -36,8 +36,8 @@ body {
 }
 
 #main-header{
-	background-color: #00154f;
-	color: #f4af1b;
+	background-color: #bd9dea;
+	color: #7a77b9;
 }
 
 

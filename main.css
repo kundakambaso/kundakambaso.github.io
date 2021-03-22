@@ -40,5 +40,13 @@ body {
 	color: #7a77b9;
 }
 
+.nav{
+	width: 200px;
+	height: 500px;
+	position: absolute;
+	top: 100px;
+	left: 200px;
+}
+
 
  

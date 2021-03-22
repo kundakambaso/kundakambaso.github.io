@@ -25,17 +25,12 @@ body {
 	list-style: none;
 }
 
-#navigation{
+.nav{
 	background-color: #8d3fd0;
 	color: #7a77b9;
 }
 
-#navigation ul{
-	padding: 0%;
-	list-style: none;
-}
-
-#main-header{
+#header{
 	background-color: #8d3fd0;
 	color: #7a77b9;
 }

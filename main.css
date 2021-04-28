@@ -1,46 +1,58 @@
+:root {
+	--gradient: radial-gradient(
+	 45deg,
+	 #c0e9ef, 
+	 #c4d8f3, 
+	 #c8c7f7, 
+	 #ccb5fb, 
+	 #d0a4ff
+	 );
+}
+
 body {
-	background-color: #e8bffb;
+	padding: 25px;
+	background-image: var(--gradient);
+	animation: bg-animation 10s infinite alternate;
 	font-family: arial;
 	font-size: 16px;
 	line-height: 1.6em;
-
 }
 
-.main{
-	background-color: #e8bffb;
+@keyframes bg-animation{
+	0% {
+		background-position: left;
+	}
+	100% {
+		background-position: right;
+	}
 }
 
-.container{
-	width: max-content;
+div#nav{
+	width: 10%;
+	float: left;
+	padding: 0;
+	position: sticky;
+}
+
+div#address{
+	width: 15%;
+	float: right;
+}
+
+div#container{
 	width: 80%;
 	margin: auto;
 }
 
-.container h2{
+div#container h2{
 	text-align: center;
 }
 
-.container ul{
+div#nav ul{
 	list-style: none;
 }
 
-.nav{
-	background-color: #8d3fd0;
-	color: #7a77b9;
-}
 
-#header{
-	background-color: #8d3fd0;
-	color: #7a77b9;
-}
-
-.nav{
-	width: 200px;
-	height: 500px;
-	position: absolute;
-	top: 100px;
-	left: 200px;
-}
 
 
  
